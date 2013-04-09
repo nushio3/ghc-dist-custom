@@ -6,10 +6,10 @@ customized ghc distributions.
 Included
 ---------------
 
-* ghc-7.7.20130222-x86_64-unknown-linux.tar.bz2 *  
+*ghc-7.7.20130222-x86_64-unknown-linux.tar.bz2*  
 - a ghc-7.7 build.
 
-* ghc-7.4.2-eden.tar.gz *
+*ghc-7.4.2-eden.tar.gz*
 - a parallel programming extension to ghc. http://www.mathematik.uni-marburg.de/~eden/
 
 
