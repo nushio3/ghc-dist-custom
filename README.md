@@ -6,6 +6,15 @@ customized ghc distributions.
 Included
 ---------------
 
+*ghc-7.7.20130318-x86_64-unknown-linux.tar.bz2*
+- a ghc-7.7 type-nats branch with main merged (hopefully.)
+You need the following `.so` files on the path to install this version.
+
+```
+sudo cp libraries/terminfo/dist-install/build/libHSterminfo-0.3.2.5-ghc7.7.20130318.so /usr/lib/
+sudo cp libraries/haskeline/dist-install/build/libHShaskeline-0.7.0.4-ghc7.7.20130318.so /usr/lib/
+```
+
 *ghc-7.7.20130222-x86_64-unknown-linux.tar.bz2*  
 - a ghc-7.7 build.
 
