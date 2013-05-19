@@ -40,11 +40,11 @@ How to build your own bindist
 ````
 $ git clone http://darcs.haskell.org/ghc.git/
 $ cd ghc
-$ # optionally, git checkout <branch name>
 $ ./sync-all --testsuite get
 $ cp mk/build.mk.sample mk/build.mk
 $ ### edit BuildFlavour to quick ###
 $ ./boot
+$ # optionally, git checkout <branch name>
 $ ./configure
 $ make -jN # <N> is the number of cores you have.
 $ make binary-dist
