@@ -6,6 +6,10 @@ customized ghc distributions.
 Included
 ---------------
 
+*ghc-typenats-7.7.20130520-x86_64-unknown-linux.tar.bz2*
+- a ghc-7.7 type-nats enabled branch.
+
+
 *ghc-7.7.20130318-x86_64-unknown-linux.tar.bz2*
 - a ghc-7.7 type-nats branch with main merged (hopefully.)
 You need the following `.so` files on the path to install this version.
